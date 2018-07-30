@@ -31,6 +31,8 @@ bundle
 rackup -p 3000
 ```
 
+To view bookmarks, navigate to `localhost:3000/bookmarks`
+
 ### To run tests:
 
 ```
