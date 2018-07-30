@@ -10,9 +10,21 @@ So that I can quickly go to web sites I regularly visit
 I would like to see a list of bookmarks
 ```
 
+```
+As a user
+So I can store bookmark data for later retrieval
+I want to add a bookmark to Bookmark Manager
+```
+
+```
+As a user
+So that I can keep my bookmarks relevant
+I want to delete a bookmark
+```
+
 ## Domain Model
 
-![Bookmark Manager domain model](./public/images/bookmark_manager_10.png)
+![Bookmark Manager domain model](./public/images/bookmark_manager_12.png)
 
 
 ## How to use
