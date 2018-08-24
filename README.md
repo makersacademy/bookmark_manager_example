@@ -40,6 +40,12 @@ So that I can make interesting notes
 I want to add a Comment to a Bookmark
 ```
 
+```
+As a user
+So that I can categorize my bookmarks
+I want to add a Tag to a Bookmark
+```
+
 ## Domain Model
 
 Below is a domain model for the bookmarks model.
@@ -53,7 +59,7 @@ The below diagram indicates that:
 - A Bookmark *has many* Comments
 - A Comment *belongs to* a Bookmark
 
-![Bookmark Manager entity relation diagram](./public/images/bookmark_manager_relations.png)
+![Bookmark Manager entity relation diagram](./public/images/bookmark_manager_relations_17_1.png)
 
 ## How to use
 
