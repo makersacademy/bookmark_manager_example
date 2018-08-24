@@ -13,3 +13,4 @@ class BookmarkTag
     @tag_id = tag_id
   end
 end
+ 
