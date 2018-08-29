@@ -44,7 +44,9 @@ class Bookmark
   end
 
   def self.where(tag_id:)
-    result = DatabaseConnection.query("SELECT id, url, title FROM bookmarks_tags INNER JOIN bookmarks ON bookmarks.id = bookmarks_tags.bookmark_id WHERE tag_id = #{tag_id};")
+    result = DatabaseConnection.query(
+      "SELECT id, url, title FROM bookmarks_tags INNER JOIN bookmarks ON bookmarks.id = bookmarks_tags.bookmark_id WHERE tag_id = $1;", [tag_id]
+    )
     result.map do |bookmark|
       Bookmark.new(
         id: bookmark['id'],
