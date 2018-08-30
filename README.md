@@ -64,6 +64,12 @@ So that I can keep my account secure
 I want to sign in with my email and password
 ```
 
+```
+As a user
+So that I can keep my account secure
+I want to sign out
+```
+
 ## Domain Model
 
 Below is a domain model for the bookmarks model.
