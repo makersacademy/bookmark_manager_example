@@ -46,6 +46,12 @@ So that I can categorize my bookmarks
 I want to add a Tag to a Bookmark
 ```
 
+```
+As a user
+So that I can find relevant bookmarks
+I want to filter Bookmarks by a Tag
+```
+
 ## Domain Model
 
 Below is a domain model for the bookmarks model.
